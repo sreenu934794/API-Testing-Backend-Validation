@@ -1,0 +1,24 @@
+POST /api/register
+Request Body:
+{
+  "name": "Srinivas",
+  "email": "srinivas@test.com",
+  "password": "123456"
+}
+
+POST /api/login
+Request Body:
+{
+  "email": "srinivas@test.com",
+  "password": "123456"
+}
+
+GET /api/users/101
+
+PUT /api/users/101
+Request Body:
+{
+  "name": "Srinivas Updated"
+}
+
+DELETE /api/users/101
