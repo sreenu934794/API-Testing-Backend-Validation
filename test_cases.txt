@@ -1,0 +1,34 @@
+Test Case 1:
+Verify user registration API creates a new user
+- Method: POST
+- Endpoint: /api/register
+- Expected Status Code: 201
+- Validation: User should be created successfully
+
+Test Case 2:
+Verify login API returns authentication token
+- Method: POST
+- Endpoint: /api/login
+- Expected Status Code: 200
+- Validation: Token should be generated
+
+Test Case 3:
+Verify get user details API
+- Method: GET
+- Endpoint: /api/users/{id}
+- Expected Status Code: 200
+- Validation: Correct user data should be returned
+
+Test Case 4:
+Verify update user API
+- Method: PUT
+- Endpoint: /api/users/{id}
+- Expected Status Code: 200
+- Validation: User details should be updated
+
+Test Case 5:
+Verify delete user API
+- Method: DELETE
+- Endpoint: /api/users/{id}
+- Expected Status Code: 200
+- Validation: User should be deleted successfully
